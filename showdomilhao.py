@@ -1,8 +1,6 @@
 import pygame
 from time import sleep
 
-
-
 print('####### BEM VINDO AO QUIZ SOBRE CINEMA 1.0 #######')
 
 sleep(1)
@@ -15,7 +13,7 @@ print('Você Gosta de cinema? vamos testar seus conhecimentos!')
 
 
 pygame.init()
-pygame.mixer.music.load('show-do-milhao2.mp3') #tema de abertura
+pygame.mixer.music.load('showdomilhao.mp3') #tema de abertura
 pygame.mixer.music.play()
 while (pygame.mixer.music.get_busy()): pass
 sleep(1.5)
